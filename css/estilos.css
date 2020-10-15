@@ -19,7 +19,9 @@ background-size: cover;
 /*barra*/
 .barra {
 
-    display: inline;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 
