@@ -21,7 +21,26 @@ background-size: cover;
 
     display: flex;
     justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
 
+}
+
+/*navegacion*/
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+/*pseudo selector*/
+.navegacion a:last-of-type{
+    margin-right: 0;
+}
+/*efecto para cambiar de color si pasa el cursor por el texto*/
+.navegacion a:hover{
+    color: aquamarine;
 }
 
 
