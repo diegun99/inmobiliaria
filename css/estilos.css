@@ -1,19 +1,54 @@
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+
 /*globales*/
 .contenedor {
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
+/*sistema de tamaños*/
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 3.4rem;
+}
+
+h3{
+    font-size: 3rem;
+
+}
+
+h4{
+    font-size: 2.6rem;
+}
 
 /*header*/
 .site-header.inicio {
 background: url(../img/header.jpg);
 height: 100vh; /*viewport height*/
-min-height: 600px;
+min-height: 60rem;
 background-position: center;
 background-size: cover;
 
+}
+
+/*contenido header*/
+
+.contenido-header {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
 }
 
 /*barra*/
@@ -21,7 +56,7 @@ background-size: cover;
 
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 3rem;
     align-items: center;
 
 }
@@ -30,8 +65,17 @@ background-size: cover;
 .navegacion a {
     color: white;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 2rem;
+    font-size: 1.8rem;
 
+}
+
+/*estilo del h1 del contenido header */
+.contenido-header h1{
+    color: white;
+    max-width: 60rem;
+    padding-bottom: 3rem;
+    line-height: 2;
 }
 
 /*pseudo selector*/
