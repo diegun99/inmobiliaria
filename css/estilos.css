@@ -6,6 +6,7 @@ html {
 body {
     font-family: 'Lato', sans-serif;
     font-size: 1.6rem;
+    line-height: 2;
 }
 
 /*globales*/
@@ -31,6 +32,23 @@ h3{
 h4{
     font-size: 2.6rem;
 }
+
+/*utilidades */
+.seccion{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+}
+
+.centrar-txt{
+    text-align: center;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+
+
+
 
 /*header*/
 .site-header.inicio {
@@ -86,5 +104,24 @@ background-size: cover;
 .navegacion a:hover{
     color: aquamarine;
 }
+
+/*mas sobre nosotros*/
+.iconos-nosotros{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icono{
+    flex-basis: calc(200px33.3% - 1rem);
+    text-align: center;
+}
+
+.icono h3{
+    text-transform: uppercase;
+}
+
+
+
 
 
