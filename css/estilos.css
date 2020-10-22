@@ -52,6 +52,10 @@ h4{
     font-weight: 300;
 }
 
+.d-block {
+    display: block!important;
+}
+
 
 
 
@@ -159,7 +163,170 @@ background-size: cover;
     
 }
 
+.iconos-caracteristicas{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconos-caracteristicas li{
+    display: flex;
+
+}
+
+.iconos-caracteristicas li img{
+    margin-right: 2rem;
+}
+
+.boton{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    display: inline-block;
+    margin-top: 2rem;
+    text-align: center;
+    
 
 
+}
+.boton-amarillo{
+    background: #E08709;
+}
 
+.boton-verde{
 
+    background: #71b100;
+}
+
+.ver-todas{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*contacto*/
+.imagen-contacto{
+    background-image: url(../img/encuentra.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-contacto{
+    flex: 1;
+    /*1200px / 3*/
+    color: #ffffff;
+
+}
+
+.contenido-contacto p{
+    font-size: 1.8rem;
+}
+
+/*seccion inferior*/
+
+.seccion-inferior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-inferior .blog{
+    flex-basis: 60%;
+}
+
+.seccion-inferior .testimoniales{
+    flex-basis: calc(40% - 2rem);
+}
+
+.entrada-blog{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+}
+
+.entrada-blog .imagen-entrada{
+flex-basis: 40%;
+}
+
+.entrada-blog .texto-entrada{
+    flex-basis: calc(60% - 3rem);
+}
+
+.texto-entrada h4{
+    margin: 0;
+    line-height: 1.4;
+    
+}
+
+.texto-entrada a{
+    color: #000000;
+    text-decoration: none;
+}
+
+/*pseudo elementos*/
+
+.texto-entrada h4::after{
+    content: '';
+    display: block;
+    background-color: #71b100;
+    width: 15rem;
+    height: 1rem;
+    margin-top: 1rem;
+}
+
+.texto-entrada span{
+    color: #E08709;
+}
+
+.testimonial {
+    background: #71b100;
+    border-radius: 2rem;
+    font-size: 2.4rem;
+    padding: 2rem;
+    color: #ffffff;
+}
+
+.testimonial p{
+    text-align: right;
+}
+
+.testimonial blockquote{
+    font-weight: 300;
+    padding-left: 5rem;
+    
+}
+
+.testimonial blockquote::before{
+    content: '';
+    background-image: url(../img/comilla.svg);
+    display: block;
+    width: 5rem;
+    height: 5rem;
+}
+
+.seccion-inferior h3{
+    text-align: center;
+    font-weight: 300;
+}
+
+/*footer*/
+.site-footer{
+    background-color: #333333;
+
+}
+
+.contenido-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    align-items: center;
+}
+
+.copyright{
+    color: #ffffff;
+}
