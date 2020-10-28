@@ -60,6 +60,12 @@ h4{
 
 
 /*header*/
+
+.site-header{
+    background-color: #333333;
+    padding: 1rem 0 3rem 0;
+}
+
 .site-header.inicio {
 background: url(../img/header.jpg);
 height: 100vh; /*viewport height*/
