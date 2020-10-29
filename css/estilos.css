@@ -336,3 +336,20 @@ flex-basis: 40%;
 .copyright{
     color: #ffffff;
 }
+
+/*Documento nosotros*/
+
+.contenedor-nosostros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+
+}
+
+.texto-nosotros h2{
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem 0 3rem 0;
+
+}
