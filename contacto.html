@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= "author" content="Diego Armando Corzo Hernandez">
+    <title>Inmobiliaria USG </title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+
+                <nav class ="navegacion">
+                    <a href="nosotros.html" target="_blank">Nosotros</a>
+                    <a href="anuncios.html" target="_blank">Anuncios</a>
+                    <a href="blog.html" target="_blank">Blog</a>
+                    <a href="contacto.html" target="_blank">Contacto</a>
+                </nav>
+            </div><!--fin barra-->
+        </div><!--fin contenedor-->
+    </header>
+
+    <h1 class="centrar-txt fw-300">Contacto</h1>
+    <img src="img/destacada3.jpg" alt="imagen principal de contacto">
+
+    <main class="contenedor contenido-centrado">
+        <h2 class="centrar-txt fw-300">Llena el formulario de Contacto</h2>
+        <form action="">
+
+            <fieldset>
+                <legend>Información Personal</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="tu nombre">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="tu E-mail" required>
+
+                <label for="telefono">Telefono:</label>
+                <input type="tel" name="telefono" placeholder="Tu telefono" pattern="[0-9]{10}" title="el formato debe ser de diez números">
+                
+                <label for="mensaje">Mensaje</label>
+                <textarea name="" id="mensaje"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Información sobre Propiedad</legend>
+                <label for="opciones">Vende o Compra</label>
+                <select id="opciones">
+                    <option value="" disabled selected>--Seleccione--</option>
+                    <option value="venta">Venta</option>
+                    <option value="compra">Compra</option>
+
+                </select>
+
+                <label for="cantidad">Cantidad:</label>
+                <input type="number" id="cantidad" placeholder="Cantidad">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Contacto</legend>
+                <p>Como desea ser Contactado:</p>
+                <label for="tele">Telefono</label>
+                <input type="radio" name="grupocontacto" id="tele">
+
+                <label for="emai">E-mail</label>
+                <input type="radio" name="grupocontacto" id="emai">
+                
+                <p>Si eligio telefono, elija la fecha y la hora</p>
+                <label for="fecha">Fecha</label>
+                <input type="date" id="fecha" min="1999-01-01" max="2020-12-01" value="2020-06-03">
+                
+                <label for="hora">Hora</label>
+                <input type="time" id="hora" value="00:00">
+
+            </fieldset>
+
+
+
+            <input type="submit">
+
+
+        </form>
+
+    </main>
+
+    <div class="site-footer">
+        <footer class="contenedor contenido-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html" target="_blank">Nosotros</a>
+                <a href="anuncios.html" target="_blank">Anuncios</a>
+                <a href="blog.html" target="_blank">Blog</a>
+                <a href="contacto.html" target="_blank">Contacto</a>
+            </nav>
+            <p class="copyright">Todos los Derechos Reservados &copy</p>
+        </footer>
+    </div>
+
+
+
+    
+</body>
+</html>

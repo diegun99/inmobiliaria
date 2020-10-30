@@ -15,6 +15,10 @@ body {
     margin: 0 auto;
 }
 
+.contenido-centrado{
+    max-width: 80rem;
+}
+
 .con-anuncio{
     max-width: 90rem;
     margin: 0 auto;
@@ -372,3 +376,9 @@ flex-basis: 40%;
     max-width: 90rem;
     margin: 0 auto;
 }
+
+/*Contacto*/
+label{
+    display: block;
+}
+
